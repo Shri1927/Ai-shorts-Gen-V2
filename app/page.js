@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import Header from "./_components/Header"
 import Hero from "./_components/Hero"
 

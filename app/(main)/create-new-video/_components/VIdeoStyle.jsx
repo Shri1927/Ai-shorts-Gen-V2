@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image"
 import { useState } from "react";
-const options = [
+export const options = [
     {
         name: 'Realastic',
         image: '/real.png'
@@ -49,7 +49,7 @@ const VIdeoStyle = ({ onInputChange }) => {
                         <Image src={option.image} key={idx} alt={option.name} height={120} width={500}
                             className={`object-cover h-[90px] lg:h-[120px] xl:h-[180px] rounded-lg p-1
                             hover:border border-gray-400 cursor-pointer
-                            ${option.name==selectedStyle && 'borderf'}`}/>
+                            ${selectedStyle == option.name && 'borderf'}`}/>
 
                         <h2 className="absolute text-center bottom-1 w-full">{option.name}</h2>
                     </div>

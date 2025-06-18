@@ -12,7 +12,7 @@ import {
   SidebarMenuButton
 } from "@/components/ui/sidebar"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { FileVideo, Gem, HomeIcon, SearchIcon, Wallet } from "lucide-react"
